@@ -1,0 +1,238 @@
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+.mainImage{
+    width: 100%;
+    height: auto;
+}
+
+.phoneImage{
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+/*Styles for Navbar*/
+.navbar{
+    background-color:  #e6e6e6;
+    border: none;
+    margin: 0;
+    box-shadow: 0 3px 10px #666666;
+}
+
+.navbar a{
+    color: #666666;
+    font-size: 85%;
+}
+
+/*Styles for Blue Header*/
+header{
+    background-color: #154ae1;
+}
+
+header img{
+    margin-left: 23%;
+    padding: 1.5%;
+}
+
+/*Social Media icons*/
+i{
+    color: #ffffff;
+    padding: 0 5px 0 5px;
+}
+
+#socialMedia{
+    display: inline;
+    margin-left: 30%;
+}
+
+/*Styles for text about the event*/
+.info{
+    width: 100%;
+    text-align: center;
+}
+
+.info h4{
+    font-size: 180%;
+    margin-top: 6%;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+.info p{
+    width: 65%;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+/*Styles for Register Button*/
+#registerBtn{
+    background-color: #7ee600;
+    color: white;
+    padding: 1%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#forBtn{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+
+/*Styles for OTC links*/
+#linksDiv{
+    background-color: #e6e6e6;
+    color: #666666;
+    padding: 2%;
+}
+
+#links{
+    width: 45%;
+    margin: auto;
+}
+
+#links a{
+    background-color: #154ae1;
+    color: #ffffff;
+    padding: 2%;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#links a:hover{
+    background-color: #b3b3b3;
+}
+
+#linksP{
+    width: 20%;
+    margin-left: 30%;
+    font-size: 120%;
+}
+/*Column containing the ul*/
+.col-sm-6{
+    padding-left: 20%;
+}
+
+/*Styles for list of 20 programs*/
+#program1{
+    padding-left:27%;
+}
+
+#program2{
+    padding-left: 10%;
+}
+
+#programsSubHeader{
+    font-size: 160%;
+    text-align: center;
+    padding-bottom: 2%;
+    
+}
+
+#programsHeader{
+    font-size: 180%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+/*Footer Styles*/
+footer{
+    width: 100%;
+    background-color:  #262626;
+    padding: 2%;
+    text-align: center;
+}
+
+footer h6{
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 2%;
+    text-align: left;
+}
+
+footer p{
+    font-size: 90%;
+    color: #808080;
+    margin: 0;
+    text-align: left;
+    padding: 2px;
+}
+
+footer a{
+    color: #808080;
+   
+}
+
+footer a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+@media(max-width: 1370px){
+    .wordmark{width: 320px;}
+    header{padding: 2%;}
+    #socialMedia{margin-left: 25%;}
+}
+
+@media(max-width: 1140px){
+    #socialMedia{margin-left: 20%;}
+    .info p{width: 75%;}
+    #program1{padding-left: 20%;}
+    #links{width: 100%; text-align: center; margin-top: 5%;}
+    #linksP{width: 100%; text-align: center; margin: 0;}
+}
+
+@media(max-width: 1000px){
+    #socialMedia{margin-left: 15%;}
+    .wordmark{width: 280px;}
+    #program1{padding-left: 15%;}
+    #program2{padding-left: 5%;}
+}
+
+@media(max-width: 850px){
+    .wordmark{margin-left: 10%;}
+    .info h4{font-size: 160%;}
+    #programsHeader{font-size: 160%;}
+    #programsSubHeader{font-size: 140%;}
+    #program1{padding-left: 10%;}
+    #program2{padding-left: 3%;}
+}
+
+@media(max-width: 700px){
+    .wordmark{margin-left: 5%;}
+    #socialMedia{display: none;}
+    .mainImage{display: none;}
+    .phoneImage{display: initial;}
+}
+
+@media(max-width:590px){
+    .wordmark{width: 260px;}
+    .info h4{font-size: 140%;}
+    #programsHeader{font-size: 140%;}
+    #programsSubHeader{font-size: 120%;}
+    #program1{padding-left: 0;}
+    #program2{padding-left: 0;}
+    #links a{display: block; margin-top: 1%; margin-bottom: 1%;}
+}
+
+@media(max-width: 450px){
+    .wordmark{width: 240px;}
+}
+
