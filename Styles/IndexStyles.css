@@ -90,6 +90,11 @@ i{
     margin-top: 5%;
 }
 
+/*Styles for Sponsor section*/
+.sponsor{
+    text-align: center;
+}
+
 
 /*Styles for OTC links*/
 #linksDiv{
