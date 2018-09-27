@@ -94,6 +94,9 @@ i{
 .sponsor{
     text-align: center;
 }
+#sponsorImage{
+    padding: 10px;
+}
 
 
 /*Styles for OTC links*/
