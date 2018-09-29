@@ -90,6 +90,20 @@ i{
     margin-top: 5%;
 }
 
+/*Styles for Sponsor section*/
+.sponsor{
+    text-align: center;
+}
+#gbBank{
+    position: relative;
+    left: 20%;
+    padding-bottom: 30px;
+}
+#cu {
+    position: relative;
+    left: 30%;
+}
+
 
 /*Styles for OTC links*/
 #linksDiv{
@@ -197,6 +211,7 @@ footer a:hover{
     #program1{padding-left: 20%;}
     #links{width: 100%; text-align: center; margin-top: 5%;}
     #linksP{width: 100%; text-align: center; margin: 0;}
+    #gbBank{left: 0%;}
 }
 
 @media(max-width: 1000px){
