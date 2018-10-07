@@ -95,15 +95,15 @@ i{
     text-align: center;
 }
 #gbBank{
-    position: relative;
-    left: 20%;
-    padding-bottom: 30px;
+    width: 400px;
+    height: 150px;
+    padding: 20px;
 }
-#cu {
-    position: relative;
-    left: 30%;
+#cu{
+    width: 150px;
+    height: 100px;
+    padding: 20px;
 }
-
 
 /*Styles for OTC links*/
 #linksDiv{
@@ -152,7 +152,7 @@ i{
     font-size: 160%;
     text-align: center;
     padding-bottom: 2%;
-    
+
 }
 
 #programsHeader{
@@ -190,7 +190,7 @@ footer p{
 
 footer a{
     color: #808080;
-   
+
 }
 
 footer a:hover{
@@ -211,7 +211,6 @@ footer a:hover{
     #program1{padding-left: 20%;}
     #links{width: 100%; text-align: center; margin-top: 5%;}
     #linksP{width: 100%; text-align: center; margin: 0;}
-    #gbBank{left: 0%;}
 }
 
 @media(max-width: 1000px){
@@ -235,6 +234,7 @@ footer a:hover{
     #socialMedia{display: none;}
     .mainImage{display: none;}
     .phoneImage{display: initial;}
+    #gbBank{width:100vw;}
 }
 
 @media(max-width:590px){
@@ -250,4 +250,3 @@ footer a:hover{
 @media(max-width: 450px){
     .wordmark{width: 240px;}
 }
-
