@@ -220,6 +220,21 @@ footer a:hover{
 
 }
 
+/*Styles for Sponsor section*/
+.sponsor{
+    text-align: center;
+}
+#gbBank{
+    width: 400px;
+    height: 150px;
+    padding: 20px;
+}
+#cu{
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+}
+
 @media only screen and (max-width: 1370px){
     .wordmark{width: 320px;}
     header{padding: 2%;}
@@ -246,6 +261,7 @@ footer a:hover{
     .wordmark{margin-left: 5%;}
     #socialMedia{display: none;}
     .sidePhone{width: 100%;}
+    #gbBank{width:100vw;}
 }
 
 
