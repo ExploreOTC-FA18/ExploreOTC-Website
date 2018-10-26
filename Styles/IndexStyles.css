@@ -62,6 +62,11 @@ i{
     text-align: center;
 }
 
+.tableHeader{
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .info h4{
     font-size: 180%;
     margin-top: 6%;
