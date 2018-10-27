@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portal Options</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Styles/db_portal.css" type="text/css">
+    <script src="login.js" charset="utf-8"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div>
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#registration">Paper Registration Entry</a></li>
+        <li><a data-toggle="tab" href="#qrCode">Paper QR Code Entry</a></li>
+        <li><a data-toggle="tab" href="#survey">Paper Survey Entry</a></li>
+      </ul>
+      <div class="tab-content">
+        <div id="registration" class="tab-pane fade in active">
+          <h3>Paper Registration</h3>
+          <div class="form-group">
+            <form action="">
+            <div class="form-group">
+              <label for="school">School Name:</label>
+              <input type="school" class="form-control" id="school">
+            </div>
+            <div class="form-group">
+              <label for="firstName">First Name:</label>
+              <input type="firstName" class="form-control" id="firstName">
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name:</label>
+              <input type="lastName" class="form-control" id="lastName">
+            </div>
+            <div class="form-group">
+              <label for="email">Email address:</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="phoneNumber">Phone Number:</label>
+              <input type="phoneNumber" class="form-control" id="phoneNumber">
+            </div>
+            <div class="form-group">
+              <label for="rating">Initial Impression of OTC:</label>
+              <select class="form-control" id="rating">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div> 
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+      </div>
+        <div id="qrCode" class="tab-pane fade">
+          <h3>QR Code</h3>
+          <div class="form-group">
+            <form action="">
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="program">Program Interested In:</label>
+              <input type="program" class="form-control" id="program">
+            </div>
+            <div class="form-group">
+              <label for="contact">Desired Contact:</label>
+              <div class="checkbox">
+                <label><input type="checkbox" value="phone call">Phone Call</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="email">Email</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="job shadow">Job Shadow</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="program tour">Program Tour</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="Councelor Visit">Councelor Visit</label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+        </div>
+        <div id="survey" class="tab-pane fade">
+          <h3>Survey</h3>
+          <div class="form-group">
+            <form action="">
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="futurePlans">Future Plans:</label>
+              <div class="checkbox">
+                <label><input type="checkbox" value="military">Military</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="AAS">Associate's Degree</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="BA">Bachelors Degree</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="noPlan">Not Attending College</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="goToWork">Go to work after High School</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="dont">Don't Know</label>
+              </div>
+            </div>
+             <div class="form-group">
+              <label for="program">Program Interested In:</label>
+              <input type="program" class="form-control" id="program">
+            </div>
+            <div class="form-group">
+              <label for="aPlus">A+ Qualified?</label>
+              <div class="radio">
+                <label><input type="radio" name="aPlusRadio" checked>Yes</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="aPlusRadio">No</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="interest">Did the event increase your interest?</label>
+              <div class="radio">
+                <label><input type="radio" name="interestRadio" checked>Yes</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="interestRadio">No</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="fullDay">Are you interested in attending during High School for a full day?</label>
+              <div class="radio">
+                <label><input type="radio" name="fullDayRadio" checked>Yes</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="fullDayRadio">No</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="halfDay">Are you interested in attending during High School for a half day?</label>
+              <div class="radio">
+                <label><input type="radio" name="halfDayRadio" checked>Yes</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="halfDayRadio">No</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="after">Are you interested in attending OTC after completing High School?</label>
+              <div class="radio">
+                <label><input type="radio" name="afterRadio" checked>Yes</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="afterRadio">No</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="eventRating">What did you think of the ExploreOTC event?</label>
+              <select class="form-control" id="eventRating">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="comments">Comments?</label>
+              <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
